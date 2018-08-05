@@ -9,6 +9,9 @@ python -m venv .venv
 echo -e "Activating virtual environment"
 source .venv/bin/acivate
 
+echo -e "Installing packages"
+poetry develop
+
 echo "Enabling Jupyter Extension"
 jupyter contrib nbextension install --user
 
