@@ -1,5 +1,4 @@
-Medical Text Modeling
--------------------------------
+# Medical Text Modeling
 
 You are faced with a problem, you have documents on your system that you want
 to possibly share with others but you want to make sure you don't share any
@@ -18,7 +17,7 @@ attempt to solve the problem.
 We want to try out a few of these different approaches in order to have a better
 grasp as to the pros/cons of each.  
 
-1. [Text Matching](notebooks/01 - Text Matching.ipynb)
+1. [Text Matching](notebooks/01%20-%20Text%20Matching.ipynb)
 
 ### Text Matching
 
