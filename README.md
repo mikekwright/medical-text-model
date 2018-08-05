@@ -18,23 +18,10 @@ attempt to solve the problem.
 We want to try out a few of these different approaches in order to have a better
 grasp as to the pros/cons of each.  
 
-1. Text Matching
-2. 
+1. [Text Matching](notebooks/01 - Text Matching.ipynb)
 
-### Naive Approach
+### Text Matching
 
-As a programmer, a naive approach that I might have come up with would be
-to use a list of words that we would categorize as medical.  We could then
-iterate through each word in a document and if any of the words are in
-our predefined list we could call the document a "medical" document.  
-
-This approach has some drawback though.  While some medical words, such as
-"melanoma", may not really be used outside of a medical context, other words,
-such as "finger" can be used in a non-medical fashion as well as a medical one. 
-
-    "I broke my finger last night"
-    vs
-    "Don't point the finger at me"
 
 
 
@@ -120,8 +107,14 @@ To get the docker environment correctly setup for WSL you will need to do the fo
 
 ### Data References
 
+* [online-medical-dictionary.org](https://www.online-medical-dictionary.org/glossary/a.html)
+* [Dictionary of medical terms (pdf)](http://alexabe.pbworks.com/f/Dictionary+of+Medical+Terms+4th+Ed.-+(Malestrom).pdf)
+* [Git repo of wordlist (*check license*)](https://github.com/glutanimate/wordlist-medicalterms-en)
+* [US National Library of Medicine Terms](https://www.nlm.nih.gov/medical-terms.html)
+* [Merk Manual](https://www.merckmanuals.com/en-ca/home)
+* [UMLS (Unified Medical Language System)](https://www.nlm.nih.gov/research/umls/quickstart.html)
 
-### Setup References
+### Other References
 
 * [WSL for VSCode Terminal](https://stackoverflow.com/questions/44450218/how-do-i-use-bash-on-ubuntu-on-windows-wsl-for-my-vs-code-terminal)
 * [MobaXTerm - X11 for windows](https://mobaxterm.mobatek.net/)
